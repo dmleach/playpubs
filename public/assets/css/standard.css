@@ -1,23 +1,28 @@
 body {
-    /*background-color: #ffcd58;*/
     background-color: #804620;
-    font-family: Georgia, Times, serif;
+    font-family: serif;
+    font-size: clamp(12px, 1rem + 2vw, 20px);
     margin: auto;
-    /*max-width: 950px;*/
-
 }
 
-div {
-    margin: 0;
-}
-
-a,
 h1,
 h2,
-h3,
-p {
+h3 {
+    font-weight: normal;
     margin: 0;
     padding: 0 0 0.5em;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+h3 {
+    font-size: 120%;
 }
 
 header {
@@ -35,6 +40,7 @@ main {
 footer {
     background-color: #804620;
     color: white;
+    font-size: clamp(8px, 70%, 70%);
     padding-bottom: 1em;
     padding-top: 1em;
 }
@@ -42,6 +48,6 @@ footer {
 .content {
     margin: auto;
     max-width: 950px;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
 }

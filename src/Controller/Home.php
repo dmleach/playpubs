@@ -13,7 +13,7 @@ class Home extends AbstractController
     public function getContent(): array
     {
         return [
-            'page_content' => 'This is where page content will go'
+            'page_content' => ''
         ];
     }
 }
