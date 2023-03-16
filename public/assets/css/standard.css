@@ -1,0 +1,53 @@
+body {
+    background-color: #804620;
+    font-family: serif;
+    font-size: clamp(12px, 1rem + 2vw, 20px);
+    margin: auto;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 0.5em;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+h3 {
+    font-size: 120%;
+}
+
+header {
+    background-color: #dab180;
+    color: white;
+    padding-top: 1em;
+}
+
+main {
+    background-color: #f7e7b0;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+footer {
+    background-color: #804620;
+    color: white;
+    font-size: clamp(8px, 70%, 70%);
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.content {
+    margin: auto;
+    max-width: 950px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
